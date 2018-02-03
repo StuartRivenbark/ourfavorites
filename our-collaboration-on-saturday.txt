@@ -1,0 +1,293 @@
+Microsoft Windows [Version 10.0.16299.192]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Stuart>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart
+
+01/15/2018  03:10 PM    <DIR>          .
+01/15/2018  03:10 PM    <DIR>          ..
+01/27/2018  08:53 AM    <DIR>          .android
+07/13/2017  02:39 PM    <DIR>          .cordova
+10/11/2017  03:33 PM             1,002 .csslintrc
+02/15/2017  07:08 PM    <DIR>          .dnx
+08/17/2017  03:18 PM    <DIR>          .eclipse
+07/13/2017  03:40 PM                16 .emulator_console_auth_token
+10/11/2017  03:33 PM             1,506 .eslintrc
+01/15/2018  08:09 AM               226 .gitconfig
+01/05/2018  10:09 AM    <DIR>          .IntelliJIdea2017.3
+01/10/2018  04:37 PM    <DIR>          .m2
+01/27/2018  08:54 AM    <DIR>          .p2
+01/15/2018  03:10 PM    <DIR>          .rascal
+08/17/2017  03:18 PM    <DIR>          .tooling
+01/15/2018  08:27 AM             1,513 .viminfo
+01/06/2018  07:11 PM    <DIR>          3D Objects
+10/11/2017  03:33 PM             2,754 coffeelint.json
+01/06/2018  07:11 PM    <DIR>          Contacts
+01/06/2018  07:11 PM    <DIR>          Desktop
+01/06/2018  07:11 PM    <DIR>          Documents
+02/03/2018  02:26 PM    <DIR>          Downloads
+08/17/2017  03:16 PM    <DIR>          eclipse
+01/15/2018  03:10 PM    <DIR>          eclipse-workspace
+01/06/2018  07:11 PM    <DIR>          Favorites
+01/15/2018  09:34 AM    <DIR>          first_project
+01/31/2018  05:42 PM    <DIR>          IdeaProjects
+01/25/2018  04:49 PM    <DIR>          Links
+01/06/2018  07:11 PM    <DIR>          Music
+01/25/2018  04:49 PM    <DIR>          OneDrive
+01/06/2018  07:11 PM    <DIR>          Pictures
+04/07/2016  02:26 PM    <DIR>          Roaming
+01/06/2018  07:11 PM    <DIR>          Saved Games
+01/06/2018  07:11 PM    <DIR>          Searches
+10/11/2017  03:33 PM             1,803 tslint.json
+11/10/2017  10:29 AM         8,388,608 TTTS.mdf.mdf
+11/10/2017  10:29 AM         8,388,608 TTTS.mdf_log.ldf
+01/06/2018  07:11 PM    <DIR>          Videos
+11/16/2017  05:08 PM    <DIR>          Zotero
+               9 File(s)     16,786,036 bytes
+              30 Dir(s)  135,924,772,864 bytes free
+
+C:\Users\Stuart>cd in*
+
+C:\Users\Stuart\IntelGraphicsProfiles>cd..
+
+C:\Users\Stuart>cd id*
+
+C:\Users\Stuart\IdeaProjects>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects
+
+01/31/2018  05:42 PM    <DIR>          .
+01/31/2018  05:42 PM    <DIR>          ..
+01/28/2018  12:19 PM    <DIR>          HelloWorld
+01/28/2018  12:15 PM    <DIR>          ourfavorites
+01/27/2018  08:38 AM    <DIR>          ourfavorites_from_GitHub
+01/13/2018  01:39 PM    <DIR>          seng6245-imp-stage1-StuartRivenbark
+01/10/2018  04:48 PM    <DIR>          seng6245-intro-examples
+01/31/2018  05:42 PM    <DIR>          seng6245-junit-examples
+               0 File(s)              0 bytes
+               8 Dir(s)  135,924,772,864 bytes free
+
+C:\Users\Stuart\IdeaProjects>md ourfavorites-1
+
+C:\Users\Stuart\IdeaProjects>cd ourfavorites
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects\ourfavorites
+
+01/28/2018  12:15 PM    <DIR>          .
+01/28/2018  12:15 PM    <DIR>          ..
+01/28/2018  12:17 PM    <DIR>          .idea
+01/27/2018  08:40 AM                61 README.md
+               1 File(s)             61 bytes
+               3 Dir(s)  135,923,949,568 bytes free
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>edit favorite-foods.txt
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects\ourfavorites
+
+02/03/2018  03:11 PM    <DIR>          .
+02/03/2018  03:11 PM    <DIR>          ..
+01/28/2018  12:17 PM    <DIR>          .idea
+02/03/2018  03:11 PM                64 favorite-foods.txt
+01/27/2018  08:40 AM                61 README.md
+               2 File(s)            125 bytes
+               3 Dir(s)  135,922,876,416 bytes free
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git add .
+warning: LF will be replaced by CRLF in .idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .idea/ourfavorites.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .idea/workspace.xml.
+The file will have its original line endings in your working directory.
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git commit -m "Done on Saturday"
+[master 772af58] Done on Saturday
+ 7 files changed, 370 insertions(+)
+ create mode 100644 .idea/Hello.java
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/ourfavorites.iml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 .idea/workspace.xml
+ create mode 100644 favorite-foods.txt
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git push
+To https://github.com/StuartRivenbark/ourfavorites
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/StuartRivenbark/ourfavorites'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>github.com/StoneyJackson/github-workflow-activity/blob/master/reference.md
+'github.com' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git clone https://github.com/StuartRivenbark/ourfavorites C:\Users\Stuart\IdeaProjects\ourfavorites
+fatal: destination path 'C:\Users\Stuart\IdeaProjects\ourfavorites' already exists and is not an empty directory.
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>del *.*
+C:\Users\Stuart\IdeaProjects\ourfavorites\*.*, Are you sure (Y/N)? y
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects\ourfavorites
+
+02/03/2018  03:18 PM    <DIR>          .
+02/03/2018  03:18 PM    <DIR>          ..
+01/28/2018  12:17 PM    <DIR>          .idea
+               0 File(s)              0 bytes
+               3 Dir(s)  135,921,741,824 bytes free
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>cd .i*
+
+C:\Users\Stuart\IdeaProjects\ourfavorites\.idea>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects\ourfavorites\.idea
+
+01/28/2018  12:17 PM    <DIR>          .
+01/28/2018  12:17 PM    <DIR>          ..
+01/28/2018  12:12 PM               132 Hello.java
+01/27/2018  08:43 AM    <DIR>          inspectionProfiles
+01/28/2018  12:10 PM               175 misc.xml
+01/27/2018  08:43 AM               276 modules.xml
+01/27/2018  08:43 AM               336 ourfavorites.iml
+01/27/2018  08:43 AM               167 vcs.xml
+01/28/2018  12:17 PM            18,495 workspace.xml
+               6 File(s)         19,581 bytes
+               3 Dir(s)  135,921,741,824 bytes free
+
+C:\Users\Stuart\IdeaProjects\ourfavorites\.idea>del *.*
+C:\Users\Stuart\IdeaProjects\ourfavorites\.idea\*.*, Are you sure (Y/N)? y
+
+C:\Users\Stuart\IdeaProjects\ourfavorites\.idea>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects\ourfavorites\.idea
+
+02/03/2018  03:19 PM    <DIR>          .
+02/03/2018  03:19 PM    <DIR>          ..
+01/27/2018  08:43 AM    <DIR>          inspectionProfiles
+               0 File(s)              0 bytes
+               3 Dir(s)  135,921,762,304 bytes free
+
+C:\Users\Stuart\IdeaProjects\ourfavorites\.idea>cd..
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>cd..
+
+C:\Users\Stuart\IdeaProjects>git clone https://github.com/StuartRivenbark/ourfavorites C:\Users\Stuart\IdeaProjects\ourfavorites
+Cloning into 'C:\Users\Stuart\IdeaProjects\ourfavorites'...
+remote: Counting objects: 14, done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 14 (delta 1), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (14/14), done.
+
+C:\Users\Stuart\IdeaProjects>cd our*
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git remote add upstream https://github.com/SENG6245-Hands-on-TeamWork/ourfavorites
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git checkout -b STUBRANCH
+Switched to a new branch 'STUBRANCH'
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 2D81-BD60
+
+ Directory of C:\Users\Stuart\IdeaProjects\ourfavorites
+
+02/03/2018  03:22 PM    <DIR>          .
+02/03/2018  03:22 PM    <DIR>          ..
+02/03/2018  03:22 PM                28 favorite-foods.txt
+02/03/2018  03:19 PM                61 README.md
+               2 File(s)             89 bytes
+               2 Dir(s)  135,919,030,272 bytes free
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git add .
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git commit -m "Saturday"
+[STUBRANCH 5fe3e50] Saturday
+ 1 file changed, 2 insertions(+)
+ create mode 100644 favorite-foods.txt
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git push -u origin STUBRANCH
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 311 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/StuartRivenbark/ourfavorites
+   cd32ee4..5fe3e50  STUBRANCH -> STUBRANCH
+Branch STUBRANCH set up to track remote branch STUBRANCH from origin.
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git fetch upstream master:master
+From https://github.com/SENG6245-Hands-on-TeamWork/ourfavorites
+ * [new branch]      master     -> upstream/master
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>git push origin master
+Everything up-to-date
+
+C:\Users\Stuart\IdeaProjects\ourfavorites>dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
